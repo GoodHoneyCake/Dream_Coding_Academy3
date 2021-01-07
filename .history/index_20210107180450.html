@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <setcion class="player">
+      <video controls src="/video/video.mp4"></video>
+    </setcion>
+
+    <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#광안리</li>
+          <li>#해변</li>
+          <li>#모래</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title"> 광안리 해변 </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <div class="views">
+          <span class="views">조회수 100회 • 2020. 12. 20.</span>
+        </div>
+      </div>
+      <!-- Actions -->
+      <div class="actions">
+        <li>
+          <button><i class="fas fa-thumbs-up"></i><span>100</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-share"></i><span>공유</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-plus"></i><span>저장</span></button>
+        </li>
+        <li>
+          <button>
+            <i class="fab fa-font-awesome-flag"></i><span>신고</span>
+          </button>
+        </li>
+      </div>
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="image/avatar.jpeg" alt="avatar" />
+          <div class="info">
+            <span class="name">복덩이</span>
+            <span class="subscribers">구독자 1만명</span>
+          </div>
+        </div>
+        <button class="subscribe">구독</button>
+      </div>
+    </section>
+    <section class="upNext"></section>
+  </body>
+</html>
